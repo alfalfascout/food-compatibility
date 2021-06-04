@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "result": {
+        "item":"pamhc2foodextended:peachesandcreamoatmealitem",
+        "count": 1
+    },
+    "ingredients": [
+        {
+            "tag": "forge:tool_pot"
+        },
+        {
+            "tag": "forge:crops/oats"
+        },
+        {
+            "tag": "forge:crops/peach"
+        },
+        {
+            "tag": "forge:cream"
+        },
+        {
+            "tag": "forge:water"
+        }
+    ]
+}

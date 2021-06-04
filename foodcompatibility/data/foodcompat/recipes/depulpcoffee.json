@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"result": {
+		"item":"thermal:coffee_seeds",
+		"count": 1
+	},
+	"ingredients": [
+			{
+					"item": "thermal:coffee"
+			}
+	]
+}
