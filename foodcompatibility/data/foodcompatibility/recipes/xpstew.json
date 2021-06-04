@@ -1,29 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#A#",
-        "WEW",
-        " B "
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:crops/spinach"
-        },
-        "A": {
-            "tag": "forge:crops/eggplant"
-        },
-        "W": {
-            "tag": "forge:crops/barley"
-        },
-        "E": {
-            "item": "minecraft:experience_bottle"
-        },
-        "B": {
-            "item": "minecraft:bowl"
-        }
-    },
-    "result": {
-        "item": "thermal:xp_stew",
-        "count": 1
-    }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#A#",
+		"WEW",
+		" B "
+	],
+	"key": {
+		"#": {
+			"tag": "forge:crops/spinach"
+		},
+		"A": {
+			"tag": "forge:crops/eggplant"
+		},
+		"W": {
+			"tag": "forge:crops/barley"
+		},
+		"E": {
+			"item": "minecraft:experience_bottle"
+		},
+		"B": {
+			"item": "minecraft:bowl"
+		}
+	},
+	"result": {
+		"item": "thermal:xp_stew",
+		"count": 1
+	}
 }

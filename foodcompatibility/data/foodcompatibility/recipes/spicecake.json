@@ -1,29 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#S#",
-        "CEC",
-        "WSW"
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:milk"
-        },
-        "S": {
-            "tag": "forge:crops/spiceleaf"
-        },
-        "C": {
-            "tag": "forge:honey"
-        },
-        "E": {
-            "tag": "forge:egg"
-        },
-        "W": {
-            "tag": "forge:flour"
-        }
-    },
-    "result": {
-        "item": "thermal:spice_cake",
-        "count": 1
-    }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#S#",
+		"CEC",
+		"WSW"
+	],
+	"key": {
+		"#": {
+			"tag": "forge:milk"
+		},
+		"S": {
+			"tag": "forge:crops/spiceleaf"
+		},
+		"C": {
+			"tag": "forge:honey"
+		},
+		"E": {
+			"tag": "forge:egg"
+		},
+		"W": {
+			"tag": "forge:flour"
+		}
+	},
+	"result": {
+		"item": "thermal:spice_cake",
+		"count": 1
+	}
 }

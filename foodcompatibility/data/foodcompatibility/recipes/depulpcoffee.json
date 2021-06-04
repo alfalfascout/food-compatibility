@@ -5,8 +5,8 @@
 		"count": 1
 	},
 	"ingredients": [
-			{
-					"item": "thermal:coffee"
-			}
+		{
+			"item": "thermal:coffee"
+		}
 	]
 }

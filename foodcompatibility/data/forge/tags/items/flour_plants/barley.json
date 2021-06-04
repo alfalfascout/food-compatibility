@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "thermal:barley"
-    ]
+	"replace": false,
+	"values": [
+		"thermal:barley"
+	]
 }

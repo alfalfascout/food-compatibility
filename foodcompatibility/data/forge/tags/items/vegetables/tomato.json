@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "thermal:tomato"
-    ]
+	"replace": false,
+	"values": [
+		"thermal:tomato"
+	]
 }

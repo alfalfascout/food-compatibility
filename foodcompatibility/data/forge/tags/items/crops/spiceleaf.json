@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "thermal:sadiroot"
-    ]
+	"replace": false,
+	"values": [
+		"thermal:sadiroot"
+	]
 }

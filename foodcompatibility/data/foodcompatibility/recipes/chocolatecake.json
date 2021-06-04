@@ -1,29 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "#S#",
-        "CEC",
-        "WSW"
-    ],
-    "key": {
-        "#": {
-            "tag": "forge:milk"
-        },
-        "S": {
-            "tag": "forge:crops/strawberry"
-        },
-        "C": {
-            "tag": "forge:cocoapowder"
-        },
-        "E": {
-            "tag": "forge:egg"
-        },
-        "W": {
-            "tag": "forge:flour"
-        }
-    },
-    "result": {
-        "item": "thermal:chocolate_cake",
-        "count": 1
-    }
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#S#",
+		"CEC",
+		"WSW"
+	],
+	"key": {
+		"#": {
+			"tag": "forge:milk"
+		},
+		"S": {
+			"tag": "forge:crops/strawberry"
+		},
+		"C": {
+			"tag": "forge:cocoapowder"
+		},
+		"E": {
+			"tag": "forge:egg"
+		},
+		"W": {
+			"tag": "forge:flour"
+		}
+	},
+	"result": {
+		"item": "thermal:chocolate_cake",
+		"count": 1
+	}
 }

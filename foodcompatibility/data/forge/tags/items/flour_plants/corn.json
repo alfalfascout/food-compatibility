@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "thermal:corn"
-    ]
+	"replace": false,
+	"values": [
+		"thermal:corn"
+	]
 }

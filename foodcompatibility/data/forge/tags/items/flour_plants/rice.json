@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "thermal:rice"
-    ]
+	"replace": false,
+	"values": [
+		"thermal:rice"
+	]
 }
