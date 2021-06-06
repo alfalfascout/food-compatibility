@@ -1,6 +1,9 @@
 {
-    "replace:": false,
-    "values": [
-        "#forge:crops/greenbean"
-    ]
+	"replace:": false,
+	"values": [
+		{
+			"id": "#forge:crops/greenbean",
+			"required": false
+		}
+	]
 }

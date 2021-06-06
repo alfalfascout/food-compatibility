@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		"thermal:coffee_seeds"
+		{
+			"id": "thermal:coffee_seeds",
+			"required": false
+		}
 	]
 }

@@ -1,7 +1,13 @@
 {
 	"replace": false,
 	"values": [
-		"#forge:vegetables/greenbean",
-		"#forge:vegetables/peanut"
+		{
+			"id": "#forge:vegetables/greenbean", 
+			"required": false
+		},
+		{
+			"id": "#forge:vegetables/peanut",
+			"required": false
+		}
 	]
 }

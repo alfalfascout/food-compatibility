@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		"thermal:eggplant"
+		{
+			"id": "thermal:eggplant",
+			"required": false
+		}
 	]
 }

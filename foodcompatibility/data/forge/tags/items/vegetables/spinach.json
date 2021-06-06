@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		"thermal:spinach"
+		{
+			"id": "thermal:spinach",
+			"required": false
+		}
 	]
 }

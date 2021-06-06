@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		"thermal:sadiroot"
+		{
+			"id": "thermal:sadiroot",
+			"required": false
+		}
 	]
 }

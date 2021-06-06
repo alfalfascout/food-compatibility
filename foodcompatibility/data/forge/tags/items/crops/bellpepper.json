@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		"thermal:bell_pepper"
+		{
+			"id": "thermal:bell_pepper",
+			"required": false
+		}
 	]
 }
