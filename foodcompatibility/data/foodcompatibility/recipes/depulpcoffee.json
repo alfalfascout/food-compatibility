@@ -1,12 +1,25 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"result": {
-		"item":"thermal:coffee_seeds",
-		"count": 1
-	},
-	"ingredients": [
+	"type": "forge:conditional",
+	"recipes": [
 		{
-			"item": "thermal:coffee"
+			"conditions": [
+				{
+					"modid": "thermal_cultivation",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"result": {
+					"item": "thermal:coffee_seeds",
+					"count": 1
+				},
+				"ingredients": [
+					{
+						"item": "thermal:coffee"
+					}
+				]
+			}
 		}
 	]
 }

@@ -1,21 +1,34 @@
 {
-	"type": "minecraft:crafting_shapeless",
-	"result": {
-	  "item":"pamhc2foodcore:stockitem",
-	  "count": 2
-	},
-	"ingredients": [
+	"type": "forge:conditional",
+	"recipes": [
 		{
-			"tag": "forge:tool_pot"
-		},
-		{
-			"tag": "forge:vegetables"
-		},
-		{
-			"tag": "forge:crops/carrot"
-		},
-		{
-			"tag": "forge:crops/onion"
+			"conditions": [
+				{
+					"modid": "pamhc2foodcore",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"result": {
+					"item":"pamhc2foodcore:stockitem",
+					"count": 2
+				},
+				"ingredients": [
+					{
+						"tag": "forge:tool_pot"
+					},
+					{
+						"tag": "forge:vegetables"
+					},
+					{
+						"tag": "forge:crops/carrot"
+					},
+					{
+						"tag": "forge:crops/onion"
+					}
+				]
+			}
 		}
 	]
 }
