@@ -1,0 +1,26 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "#forge:applesauce",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/avocado",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/banana",
+			"required": false
+		},
+		{
+			"id": "#forge:cookingoil",
+			"required": false
+		},
+		"#forge:eggs",
+		{
+			"id": "#forge:seeds/flax",
+			"required": false
+		}
+	]
+}

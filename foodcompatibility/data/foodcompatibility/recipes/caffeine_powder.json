@@ -1,0 +1,42 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "veggie_way",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "thermal_cultivation",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"pattern": [
+					" C ",
+					"CDC",
+					" C "
+				],
+				"key": {
+					"C": {
+						"tag": "forge:crops/coffeebean"
+					},
+					"D": {
+						"item": "veggie_way:drying_agent"
+					}
+				},
+				"result": {
+					"item": "veggie_way:caffeine",
+					"count": 4
+				}
+			}
+		}
+	]
+}

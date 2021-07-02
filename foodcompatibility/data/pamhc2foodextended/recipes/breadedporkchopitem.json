@@ -1,0 +1,37 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodextended",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_skillet"
+					},
+					{
+						"tag": "forge:cookingoil"
+					},
+					{
+						"item": "pamhc2foodcore:groundporkitem"
+					},
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"tag": "forge:egg_binding"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:breadedporkchopitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

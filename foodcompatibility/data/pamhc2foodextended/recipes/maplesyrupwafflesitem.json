@@ -1,0 +1,40 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodextended",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_skillet"
+					},
+					{
+						"tag": "forge:cookingoil"
+					},
+					{
+						"tag": "forge:batter"
+					},
+					{
+						"tag": "forge:butter"
+					},
+					{
+						"tag": "forge:egg_binding"
+					},
+					{
+						"tag": "forge:crops/maple"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:maplesyrupwafflesitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

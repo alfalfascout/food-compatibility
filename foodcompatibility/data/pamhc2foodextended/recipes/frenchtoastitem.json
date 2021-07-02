@@ -1,0 +1,37 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodextended",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_skillet"
+					},
+					{
+						"tag": "forge:bread"
+					},
+					{
+						"tag": "forge:egg_binding"
+					},
+					{
+						"tag": "forge:groundcinnamon"
+					},
+					{
+						"tag": "forge:milk"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:frenchtoastitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

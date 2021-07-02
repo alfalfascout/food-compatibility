@@ -1,0 +1,28 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodcore",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_pot"
+					},
+					{
+						"tag": "forge:egg_solid"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodcore:boiledeggitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

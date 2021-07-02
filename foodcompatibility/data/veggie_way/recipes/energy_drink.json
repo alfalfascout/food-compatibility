@@ -1,0 +1,36 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"pattern": [
+					"BEB",
+					"EWE",
+					"BEB"
+				],
+				"key": {
+					"B": {
+						"item": "minecraft:glass_bottle"
+					},
+					"E": {
+						"item": "veggie_way:energy_powder"
+					},
+					"W": {
+						"tag": "forge:water"
+					}
+				},
+				"result": {
+					"item": "veggie_way:energy_drink",
+					"count": 4
+				}
+			}
+		}
+	]
+}

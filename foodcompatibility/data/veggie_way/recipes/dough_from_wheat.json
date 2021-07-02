@@ -1,0 +1,28 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"tag": "forge:water"
+					}
+				],
+				"result": {
+					"item": "veggie_way:dough",
+					"count": 2
+				}
+			}
+		}
+	]
+}

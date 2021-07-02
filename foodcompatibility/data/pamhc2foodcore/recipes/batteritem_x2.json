@@ -1,0 +1,34 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodcore",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_mixingbowl"
+					},
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"tag": "forge:milk"
+					},
+					{
+						"tag": "forge:egg_binding"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodcore:batteritem",
+					"count": 2
+				}
+			}
+		}
+	]
+}

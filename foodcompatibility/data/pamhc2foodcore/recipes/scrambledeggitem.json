@@ -1,0 +1,34 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodcore",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_skillet"
+					},
+					{
+						"tag": "forge:egg_solid"
+					},
+					{
+						"tag": "forge:milk"
+					},
+					{
+						"tag": "forge:salt"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodcore:scrambledeggitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

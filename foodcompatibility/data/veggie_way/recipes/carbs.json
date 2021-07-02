@@ -1,0 +1,33 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"pattern": [
+					"CCC",
+					"CDC",
+					"CCC"
+				],
+				"key": {
+					"C": {
+						"tag": "forge:carbs"
+					},
+					"D": {
+						"item": "veggie_way:drying_agent"
+					}
+				},
+				"result": {
+					"item": "veggie_way:carbs",
+					"count": 4
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "veggie_way:quinoa_seeds",
+			"required": false
+		}
+	]
+}

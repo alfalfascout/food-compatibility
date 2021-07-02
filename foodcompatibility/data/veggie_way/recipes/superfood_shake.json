@@ -1,0 +1,36 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"pattern": [
+					"BSB",
+					"SMS",
+					"BSB"
+				],
+				"key": {
+					"B": {
+						"item": "minecraft:glass_bottle"
+					},
+					"S": {
+						"item": "veggie_way:superfood_powder"
+					},
+					"M": {
+						"tag": "forge:milk"
+					}
+				},
+				"result": {
+					"item": "veggie_way:superfood_shake",
+					"count": 4
+				}
+			}
+		}
+	]
+}

@@ -2,12 +2,14 @@
 	"replace": false,
 	"values": [
 		{
-			"id": "thermal:corn",
+			"id": "#forge:crops/chickpea",
 			"required": false
 		},
+		"#forge:eggs",
 		{
-			"id": "veggie_way:corn",
+			"id": "#forge:firmtofu",
 			"required": false
 		}
+		
 	]
 }

@@ -2,10 +2,6 @@
 	"replace": false,
 	"values": [
 		{
-			"id": "thermal:corn",
-			"required": false
-		},
-		{
 			"id": "veggie_way:corn",
 			"required": false
 		}

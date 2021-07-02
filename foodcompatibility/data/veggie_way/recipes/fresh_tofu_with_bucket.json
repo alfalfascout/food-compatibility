@@ -1,0 +1,28 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:water"
+					},
+					{
+						"tag": "forge:crops/soybean"
+					}
+				],
+				"result": {
+					"item": "veggie_way:fresh_tofu",
+					"count": 1
+				}
+			}
+		}
+	]
+}

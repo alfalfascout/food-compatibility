@@ -1,0 +1,34 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"item": "minecraft:sugar"
+					},
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"item": "minecraft:apple"
+					},
+					{
+						"tag": "forge:water"
+					}
+				],
+				"result": {
+					"item": "veggie_way:apple_pie",
+					"count": 1
+				}
+			}
+		}
+	]
+}

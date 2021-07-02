@@ -1,0 +1,37 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodextended",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_bakeware"
+					},
+					{
+						"tag": "forge:cocoapowder"
+					},
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"tag": "forge:egg_binding"
+					},
+					{
+						"tag": "forge:sugar"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:brownieitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

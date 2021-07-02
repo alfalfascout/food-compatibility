@@ -1,0 +1,33 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "veggie_way",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"pattern": [
+					"VVV",
+					"VDV",
+					"VVV"
+				],
+				"key": {
+					"V": {
+						"tag": "forge:vegetables"
+					},
+					"D": {
+						"item": "veggie_way:drying_agent"
+					}
+				},
+				"result": {
+					"item": "veggie_way:vitamins",
+					"count": 4
+				}
+			}
+		}
+	]
+}

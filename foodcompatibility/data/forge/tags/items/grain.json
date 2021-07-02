@@ -1,0 +1,29 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "#forge:crops/barley",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/corn",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/lentil",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/rice",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/quinoa",
+			"required": false
+		},
+		{
+			"id": "#forge:crops/soybean",
+			"required": false
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"replace:": false,
+	"values": [
+		{
+			"id": "#veggie_way:protein",
+			"required": false
+		},
+		{
+			"id": "#forge:protein/lentil",
+			"required": false
+		}
+	]
+}

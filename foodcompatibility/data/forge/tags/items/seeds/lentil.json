@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "veggie_way:lentil_seeds",
+			"required": false
+		}
+	]
+}

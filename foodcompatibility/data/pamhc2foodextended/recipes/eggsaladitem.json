@@ -1,0 +1,38 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodextended",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				
+				"ingredients": [
+					{
+						"tag": "forge:tool_mixingbowl"
+					},
+					{
+						"tag": "forge:egg_solid"
+					},
+					{
+						"tag": "forge:condiments/mayonaise"
+					},
+					{
+						"tag": "forge:condiments/mustard"
+					},
+					{
+						"tag": "forge:crops/spiceleaf"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:eggsaladitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

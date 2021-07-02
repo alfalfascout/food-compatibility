@@ -8,6 +8,14 @@
 		{
 			"id": "#forge:vegetables/peanut",
 			"required": false
+		},
+		{
+			"id": "#forge:vegetables/lentil",
+			"required": false
+		},
+		{
+			"id": "#veggie_way:vegetables",
+			"required": false
 		}
 	]
 }

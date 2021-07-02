@@ -20,20 +20,20 @@
 						"tag": "forge:milk"
 					},
 					"S": {
-						"tag": "forge:crops/strawberry"
+						"tag": "forge:spices"
 					},
 					"C": {
-						"tag": "forge:cocoapowder"
+						"tag": "forge:honey"
 					},
 					"E": {
-						"tag": "forge:eggs"
+						"tag": "forge:egg_binding"
 					},
 					"W": {
 						"tag": "forge:flour"
 					}
 				},
 				"result": {
-					"item": "thermal:chocolate_cake",
+					"item": "thermal:spice_cake",
 					"count": 1
 				}
 			}
