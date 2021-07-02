@@ -3,8 +3,12 @@
 This is a datapack to bridge some recipe incompatibilities between different forge mods that add foods and food recipes to Minecraft 1.16. This is to ensure that, for example, if you're trying to Pam's Harvestcraft some green bean casserole, your Thermal Series green beans will actually work in it.
 
 Have suggestions? Feel free to submit an issue.
+
 Want to help? Feel free to fork and make a pull request.
+
 Want to continue my work after I stop maintaining it? You have my full blessing.
+
+Developed any of these mods and want to bring the extra tags/edited recipes back into the mod you made? Go for it.
 
 ## Compatibility List
 
