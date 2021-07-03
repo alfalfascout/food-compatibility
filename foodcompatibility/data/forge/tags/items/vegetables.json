@@ -1,6 +1,10 @@
 {
 	"replace": false,
 	"values": [
+		"#forge:vegetables/beetroot",
+		"#forge:vegetables/carrot",
+		"#forge:vegetables/potato",
+		"#forge:vegetables/pumpkin",
 		{
 			"id": "#forge:vegetables/greenbean", 
 			"required": false

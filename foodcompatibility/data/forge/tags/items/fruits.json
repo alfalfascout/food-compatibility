@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"#forge:fruits/apple",
+		"#forge:fruits/chorus_fruit",
+		"#forge:fruits/melon",
+		"#forge:fruits/sweet_berries",
+		{
+			"id": "#forge:fruits/strawberries",
+			"required": false
+		}
+	]
+}

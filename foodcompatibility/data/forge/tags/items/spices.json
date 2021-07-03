@@ -2,8 +2,11 @@
 	"replace": false,
 	"values": [
 		{
-			"id": "#forge:crops/sadiroot", 
+			"id": "#forge:spices/sadiroot", 
 			"required": false
 		}
+	],
+	"remove": [
+		"#forge:spices/saltandpepper"
 	]
 }

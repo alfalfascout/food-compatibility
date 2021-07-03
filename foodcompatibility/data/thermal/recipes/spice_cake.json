@@ -20,7 +20,7 @@
 						"tag": "forge:milk"
 					},
 					"S": {
-						"tag": "forge:spices"
+						"item": "thermal:sadiroot"
 					},
 					"C": {
 						"tag": "forge:honey"

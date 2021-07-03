@@ -1,8 +1,30 @@
 {
 	"replace": false,
 	"values": [
+		"#forge:flour_plants/potato",
+		"#forge:flour_plants/wheat",
+		{
+			"id": "#forge:flour_plants/barley",
+			"required": false
+		},
+		{
+			"id": "#forge:flour_plants/corn",
+			"required": false
+		},
 		{
 			"id": "#forge:flour_plants/greenbean",
+			"required": false
+		},
+		{
+			"id": "#forge:flour_plants/peanut",
+			"required": false
+		},
+		{
+			"id": "#forge:flour_plants/quinoa",
+			"required": false
+		},
+		{
+			"id": "#forge:flour_plants/rice",
 			"required": false
 		}
 	]

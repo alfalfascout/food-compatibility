@@ -1,0 +1,43 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "thermal_cultivation",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "pamhc2foodextended",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_bakeware"
+					},
+					{
+						"tag": "forge:crops/green_bean"
+					},
+					{
+						"tag": "forge:crops/onion"
+					},
+					{
+						"tag": "forge:cream"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:greenbeancasseroleitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}
