@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "exoticbirds:raw_birdmeat",
+			"required": false
+		}
+	]
+}

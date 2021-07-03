@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "#forge:stock_ingredients/raw_birdmeat",
+			"required": false
+		}
+	]
+}

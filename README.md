@@ -16,8 +16,10 @@ This version is tested with the following mods. That doesn't necessarily mean ev
 
 | Mod Name with Link                                           | File Name/Version                     |
 | ------------------------------------------------------------ | ------------------------------------- |
+| [Better Animals Plus](https://www.curseforge.com/minecraft/mc-mods/betteranimalsplus) | betteranimalsplus-1.16.5-10.2.0.jar   |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) (Thermal Series) | cofh_core-1.16.4-1.2.1.jar            |
 | [Cooking for Blockheads](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads) | CookingForBlockheads_1.16.5-9.3.3.jar |
+| [Exotic Birds](https://www.curseforge.com/minecraft/mc-mods/exotic-birds) | exoticbirds-1.16.4-1.1.0.jar          |
 | [NOEL - A Christmas Mod](https://www.curseforge.com/minecraft/mc-mods/noel-christmas-mod) | noel-1.16.4-1.5.0.jar                 |
 | [Pam's HarvestCraft 2 Crops](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops) | pamhc2crops-1.16.3-1.0.2.jar          |
 | [Pam's HarvestCraft 2 FoodCore](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core) | pamhc2foodcore-1.16.3-1.0.2.jar       |
