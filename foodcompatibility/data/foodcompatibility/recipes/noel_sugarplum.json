@@ -1,0 +1,45 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "noel",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "pamhc2trees",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shaped",
+				"pattern": [
+					"SPS",
+					"PAP",
+					"SPS"
+				],
+				"key": {
+					"S": {
+						"item": "minecraft:sugar"
+					},
+					"P": {
+						"tag": "forge:crops/plum"
+					},
+					"A": {
+						"tag": "forge:crops/almond"
+					}
+				},
+				"result": {
+					"item": "noel:sugar_plum",
+					"count": 4
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "noel",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "pamhc2foodextended",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_saucepan"
+					},
+					{
+						"item": "pamhc2crops:spiceleafitem"
+					},
+					{
+						"item": "minecraft:sugar"
+					},
+					{
+						"item": "minecraft:sugar"
+					},
+					{
+						"item": "minecraft:sugar"
+					}
+				],
+				"result": {
+					"item":"noel:candy_cane",
+					"count": 2
+				}
+			}
+		}
+	]
+}

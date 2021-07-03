@@ -1,0 +1,52 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "noel",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "pamhc2foodextended",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_bakeware"
+					},
+					{
+						"item": "noel:molasses"
+					},
+					{
+						"item": "minecraft:sugar"
+					},
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"tag": "forge:crops/ginger"
+					},
+					{
+						"tag": "forge:egg_binding"
+					},
+					{
+						"tag": "forge:groundcinnamon"
+					}
+				],
+				"result": {
+					"item":"noel:ginger_bread_cookie",
+					"count": 24
+				}
+			}
+		}
+	]
+}
