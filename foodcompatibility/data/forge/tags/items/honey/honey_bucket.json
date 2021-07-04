@@ -1,0 +1,25 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "create:honey_bucket",
+			"required": false
+		},
+		{
+			"id": "cyclic:honey_bucket",
+			"required": false
+		},
+		{
+			"id": "resourcefulbees:catnip_honey_fluid_bucket",
+			"required": false
+		},
+		{
+			"id": "resourcefulbees:honey_fluid_bucket",
+			"required": false
+		},
+		{
+			"id": "resourcefulbees:rainbow_honey_fluid_bucket",
+			"required": false
+		}
+	]
+}

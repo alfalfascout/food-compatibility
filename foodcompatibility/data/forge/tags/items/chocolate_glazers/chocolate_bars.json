@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "pamhc2foodcore:chocolatebaritem",
+			"required": false
+		},
+		{
+			"id": "create:bar_of_chocolate",
+			"required": false
+		},
+		{
+			"id": "veggie_way:chocolate_bar",
+			"required": false
+		}
+	]
+}

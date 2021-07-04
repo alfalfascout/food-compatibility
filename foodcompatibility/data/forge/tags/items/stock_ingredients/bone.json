@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:bone",
+		{
+			"id": "xreliquary:rib_bone",
+			"required": false
+		}
+	]
+}

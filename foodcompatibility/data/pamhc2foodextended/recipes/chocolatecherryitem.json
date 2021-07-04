@@ -1,0 +1,31 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"modid": "pamhc2foodextended",
+					"type": "forge:mod_loaded"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_saucepan"
+					},
+					{
+						"tag": "forge:chocolate_glazers"
+					},
+					{
+						"tag": "forge:crops/cherry"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodextended:chocolatecherryitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

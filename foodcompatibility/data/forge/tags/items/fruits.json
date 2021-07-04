@@ -8,6 +8,10 @@
 		{
 			"id": "#forge:fruits/strawberries",
 			"required": false
+		},
+		{
+			"id": "#forge:fruits/mana_berry",
+			"required": false
 		}
 	]
 }

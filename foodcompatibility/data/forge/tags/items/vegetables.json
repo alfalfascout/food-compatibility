@@ -6,7 +6,23 @@
 		"#forge:vegetables/potato",
 		"#forge:vegetables/pumpkin",
 		{
+			"id": "#forge:vegetables/eggplant", 
+			"required": false
+		},
+		{
+			"id": "#forge:vegetables/fiddlehead",
+			"required": false
+		},
+		{
 			"id": "#forge:vegetables/greenbean", 
+			"required": false
+		},
+		{
+			"id": "#forge:vegetables/lentil",
+			"required": false
+		},
+		{
+			"id": "#forge:vegetables/onion", 
 			"required": false
 		},
 		{
@@ -14,7 +30,15 @@
 			"required": false
 		},
 		{
-			"id": "#forge:vegetables/lentil",
+			"id": "#forge:vegetables/radish", 
+			"required": false
+		},
+		{
+			"id": "#forge:vegetables/spinach", 
+			"required": false
+		},
+		{
+			"id": "#forge:vegetables/tomato", 
 			"required": false
 		},
 		{

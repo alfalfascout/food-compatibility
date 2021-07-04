@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "create:bar_of_chocolate",
+			"required": false
+		},
+		{
+			"id": "veggie_way:chocolate_bar",
+			"required": false
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "pneumaticcraft",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "pamhc2foodcore",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:tool_pot"
+					},
+					{
+						"tag": "forge:rawfish"
+					},
+					{
+						"tag": "forge:flour"
+					},
+					{
+						"tag": "forge:fries"
+					}
+				],
+				"result": {
+					"item": "pamhc2foodcore:fishandchipsitem",
+					"count": 1
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "create:dough",
+			"required": false
+		},
+		{
+			"id": "veggie_way:dough",
+			"required": false
+		}
+	]
+}

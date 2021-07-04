@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "alchemistry:condensed_milk",
+			"required": false
+		}
+	]
+}

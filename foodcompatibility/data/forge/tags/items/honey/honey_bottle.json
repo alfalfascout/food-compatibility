@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:honey_bottle",
+		{
+			"id": "resourcefulbees:catnip_honey_bottle",
+			"required": false
+		},
+		{
+			"id": "resourcefulbees:rainbow_honey_bottle",
+			"required": false
+		}
+	]
+}

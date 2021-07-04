@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "#forge:chocolate_glazers/chocolate_bars",
+			"required": false
+		},
+		{
+			"id": "#forge:chocolate_glazers/chocolate_bucket",
+			"required": false
+		}
+	]
+}

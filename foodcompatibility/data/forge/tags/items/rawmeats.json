@@ -2,7 +2,19 @@
 	"replace": false,
 	"values": [
 		{
+			"id": "#forge:rawmeats/hydra_chop",
+			"required": false
+		},
+		{
 			"id": "#forge:rawmeats/raw_birdmeat",
+			"required": false
+		},
+		{
+			"id": "#forge:rawmeats/raw_meef",
+			"required": false
+		},
+		{
+			"id": "#forge:rawmeats/raw_venison",
 			"required": false
 		}
 	]

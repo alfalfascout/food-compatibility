@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "pamhc2foodcore:friesitem",
+			"required": false
+		},
+		{
+			"id": "pneumaticcraft:chips",
+			"required": false
+		}
+	]
+}

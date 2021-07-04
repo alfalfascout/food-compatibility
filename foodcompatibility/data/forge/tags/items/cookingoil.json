@@ -1,0 +1,17 @@
+{
+	"replace:": false,
+	"values": [
+		{
+			"id": "#forge:cookingoil/plantoil",
+			"required": false
+		},
+		{
+			"id": "#forge:cookingoil/vegetable_oil_bucket",
+			"required": false
+		},
+		{
+			"id": "#forge:cookingoil/tree_oil_bucket",
+			"required": false
+		}
+	]
+}

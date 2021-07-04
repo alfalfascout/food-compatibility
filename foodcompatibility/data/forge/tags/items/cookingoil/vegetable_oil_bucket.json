@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "pneumaticcraft:vegetable_oil_bucket",
+			"required": false
+		}
+	]
+}

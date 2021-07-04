@@ -1,6 +1,10 @@
 {
 	"replace": false,
 	"values": [
-		"#forge:honey/honey"
+		"#forge:honey/honey_bottle",
+		{
+			"id": "#forge:honey/honey_bucket",
+			"required": false
+		}
 	]
 }

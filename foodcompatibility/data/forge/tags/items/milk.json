@@ -1,6 +1,10 @@
 {
 	"replace:": false,
 	"values": [
-		"minecraft:milk_bucket"
+		"minecraft:milk_bucket",
+		{
+			"id": "#forge:milk/condensed_milk",
+			"required": false
+		}
 	]
 }

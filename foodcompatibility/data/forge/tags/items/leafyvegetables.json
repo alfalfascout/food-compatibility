@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		{
+			"id": "#forge:leafyvegetables/fiddlehead",
+			"required": false
+		},
+		{
+			"id": "#forge:leafyvegetables/spinach",
+			"required": false
+		}
+	]
+}

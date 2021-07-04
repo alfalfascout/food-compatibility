@@ -1,0 +1,40 @@
+{
+	"type": "forge:conditional",
+	"recipes": [
+		{
+			"conditions": [
+				{
+					"values": [
+						{
+							"modid": "pneumaticcraft",
+							"type": "forge:mod_loaded"
+						},
+						{
+							"modid": "pamhc2foodcore",
+							"type": "forge:mod_loaded"
+						}
+					],
+					"type": "forge:and"
+				}
+			],
+			"recipe": {
+				"type": "minecraft:crafting_shapeless",
+				"ingredients": [
+					{
+						"tag": "forge:fries"
+					},
+					{
+						"item": "minecraft:cooked_cod"
+					},
+					{
+						"item": "minecraft:paper"
+					}
+				],
+				"result": {
+					"item": "pneumaticcraft:cod_n_chips",
+					"count": 1
+				}
+			}
+		}
+	]
+}
